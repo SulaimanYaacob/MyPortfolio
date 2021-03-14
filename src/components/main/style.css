@@ -1,0 +1,32 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+
+.primary {
+  background-color: #62d2a2;
+  margin: 0;
+  position: relative;
+}
+
+.primary h1 {
+  padding: 3rem 0 3rem;
+  font-family: 'Lora', serif;
+  margin: 0;
+  letter-spacing: 5px;
+  color: white;
+}
+
+.primary hr {
+  width: 4%;
+  border-style: dotted;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  border-width: 7px;
+  color: white;
+}
+
+.primary p {
+  font-family: sans-serif;
+  font-size: 1rem;
+}
