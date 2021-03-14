@@ -8,7 +8,7 @@ function Portfolio() {
         <h1>
           Sulaiman Yaacob
           <hr></hr>
-          <p>testaosdoamsd osmdoasmdoaskdoia odwmao</p>
+          <p>testaoasdasda</p>
         </h1>
       </div>
     </>
