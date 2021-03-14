@@ -18,11 +18,11 @@ url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
 
 .primary hr {
   width: 4%;
+  border-width: 7px 7px 7px;
   border-style: dotted;
   border-right: none;
   border-left: none;
   border-top: none;
-  border-width: 7px;
   color: white;
 }
 
