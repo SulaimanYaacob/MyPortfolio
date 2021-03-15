@@ -1,0 +1,17 @@
+.content h3{
+    font-family: "Lora";
+    font-size: 1.3rem;
+    padding: 5rem 0 1rem;
+    
+}
+
+.content p {
+    color: grey;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 1.1rem;
+    width: 50%;
+    margin: auto;
+    word-spacing: 1px;
+    
+}

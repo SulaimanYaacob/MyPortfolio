@@ -5,11 +5,10 @@ function Portfolio() {
   return (
     <>
       <div className="primary">
-        <h1>
-          Sulaiman Yaacob
-          <hr></hr>
-          <p>testaoasdasda</p>
-        </h1>
+        <h1>Sulaiman Yaacob</h1>
+        <hr></hr>
+        <p className="occupation">A WEB DEVELOPER</p>
+        <p className="location">Kota Bharu, Kelantan</p>
       </div>
     </>
   );
