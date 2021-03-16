@@ -1,12 +1,12 @@
 import "./App.css";
 import Portfolio from "./components/main/Portfolio";
-import FooterLink from "./components/footerLink/footer";
+import HeaderLink from "./components/Header/header";
 import Content from "./components/Content/Content";
 
 function App() {
   return (
     <div className="App">
-      <FooterLink />
+      <HeaderLink />
       <Portfolio />
       <Content />
     </div>

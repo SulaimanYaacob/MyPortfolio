@@ -1,10 +1,10 @@
 import React from "react";
 import { AiFillGithub, AiFillFacebook } from "react-icons/ai";
-import "./footer.css";
+import "./header.css";
 
-function footer() {
+function header() {
   return (
-    <div className="footerLink">
+    <div className="headerLink">
       <a
         href="https://github.com/SulaimanYaacob"
         target="_blank"
@@ -23,4 +23,4 @@ function footer() {
   );
 }
 
-export default footer;
+export default header;

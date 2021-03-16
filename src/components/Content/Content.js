@@ -6,12 +6,12 @@ function Content() {
     <div className="content">
       <h3>Introduction</h3>
       <p>
-        I'm a self taught developer who's striving to be good at what I'm doing.
-        I initially graduated with Mechanical Engineering Degree with little
-        programming languange, however as years goes by, most of the problem I
-        face on my work experience require me to developed an automated
-        solution. From Excel formulas, VBA, Python and now JavaScript and the
-        frameworks. I'm keen to find out where do we go from this.
+        I am a Web Developer and a student currently pursuing a degree. 2013 was
+        the year I started coding and became immersed in the field of coding. My
+        primary motivation was to make my own video game, but as time passed, I
+        became interested in web development. While I have some coding
+        experience, I would not consider myself a skilled programmer at this
+        time because I am still honing my skills to become one.
       </p>
       <hr></hr>
     </div>
