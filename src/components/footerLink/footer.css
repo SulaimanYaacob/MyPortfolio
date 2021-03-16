@@ -3,10 +3,8 @@
   box-shadow: 1px 0 4px 4px black;
   padding-top: 0.5rem;
   position: fixed;
-  width: auto;
-  right: 0;
+  width: 100%;
   display: flex;
-  flex: wrap;
   justify-content: center;
   align-items: center;
   opacity: 0.7;
@@ -14,16 +12,16 @@
 }
 
 .footerLink a {
-  color: white;
+  color: black;
   margin: 0 0.5rem 5px 0.5rem;
   padding: 0 5px;
   font-size: 35px;
   border-radius: 5px;
-  
+  display: flex;
 }
 
 .footerLink a:hover {
-  box-shadow: inset 0 0 10px #000000;
+  color: white;
 }
 
 .footerLink:hover {

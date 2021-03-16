@@ -13,6 +13,7 @@ function Content() {
         solution. From Excel formulas, VBA, Python and now JavaScript and the
         frameworks. I'm keen to find out where do we go from this.
       </p>
+      <hr></hr>
     </div>
   );
 }

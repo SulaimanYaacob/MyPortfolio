@@ -1,17 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,400&display=swap');
+
+.content{
+    padding: 5rem;
+}
+
 .content h3{
+    margin-top: 0;
     font-family: "Lora";
     font-size: 1.3rem;
-    padding: 5rem 0 1rem;
+    padding-bottom: 1rem;
     
 }
 
 .content p {
-    color: grey;
-    font-family: sans-serif;
+    color: rgb(68, 68, 68);
+    font-family: "Lato";
     font-style: italic;
     font-size: 1.1rem;
-    width: 50%;
+    width: 55%;
     margin: auto;
     word-spacing: 1px;
-    
+
 }
