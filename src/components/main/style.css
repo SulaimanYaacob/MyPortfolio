@@ -5,7 +5,8 @@ url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
 .primary {
   background-color: #62d2a2;
   margin: 0;
-  padding-bottom: 5rem;
+  padding: 5rem 0 5rem;
+  box-shadow: 0 8px 6px -6px black;
 }
 
 .primary h1 {
