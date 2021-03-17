@@ -1,5 +1,5 @@
 import React from "react";
-import { AiFillGithub, AiFillFacebook } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import "./header.css";
 
 function header() {
@@ -13,11 +13,11 @@ function header() {
         <AiFillGithub />
       </a>
       <a
-        href="https://www.facebook.com/profile.php?id=100004964506089"
+        href="https://www.linkedin.com/in/sulaiman-yaacob-563895209/"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <AiFillFacebook />
+        <AiFillLinkedin />
       </a>
     </div>
   );

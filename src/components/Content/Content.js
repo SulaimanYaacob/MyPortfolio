@@ -6,8 +6,8 @@ import Jello from "react-reveal/Jello";
 function Content() {
   return (
     <div className="content">
+      <h3>Introduction</h3>
       <Zoom>
-        <h3>Introduction</h3>
         <p>
           I am a Web Developer and a student currently pursuing a degree. 2013
           was the year I started coding and became immersed in the field of
