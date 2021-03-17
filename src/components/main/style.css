@@ -1,6 +1,5 @@
-@import
-url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
 .primary {
   background-color: #62d2a2;
@@ -12,15 +11,15 @@ url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
 
 .primary h1 {
   padding: 3rem 0 0.1rem;
-  font-family: 'Lora', serif;
-  margin: 0;
-  letter-spacing: 5px;
+  font-family: "Lora", serif;
+  margin: 0 0 5px;
   color: white;
+  letter-spacing: 1px;
 }
 
 .primary hr {
-  width: 30%;
-  border-width: 3px 3px 3px;
+  width: 25%;
+  border-width: 3px;
   border-style: solid;
   border-right: none;
   border-left: none;
@@ -37,7 +36,6 @@ url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
   font-weight: bold;
   margin: 0;
   padding-top: 10px;
- 
 }
 
 .location {
