@@ -1,0 +1,58 @@
+import axios from "axios";
+import React, { useReducer, useEffect, Fragment } from "react";
+
+const initialState = {
+  error: "",
+  posts: [],
+};
+
+const reducer = (state, action) => {
+  switch (action.type) {
+    case "FETCH_SUCCESS":
+      return {
+        posts: action.payload,
+        error: "",
+      };
+    case "FETCH_ERROR":
+      return {
+        posts: [],
+        error: "Something went wrong!",
+      };
+    default:
+      return state;
+  }
+};
+
+function Experiences() {
+  const [state, dispatch] = useReducer(reducer, initialState);
+  // console.log(state);
+  useEffect(() => {
+    axios
+      .get(
+        "https://raw.githubusercontent.com/SulaimanYaacob/MyPortfolio/main/src/components/Data/data.json"
+      )
+      .then((res) => {
+        // console.log(res.data);
+        dispatch({ type: "FETCH_SUCCESS", payload: res.data });
+      })
+      .catch((error) => {
+        dispatch({ type: "FETCH_ERROR" });
+      });
+  }, []);
+  var sda = [];
+  return (
+    <>
+      {state.posts.map((post) => (
+        <Fragment key={post.id}>
+          <p>{post.id} </p>
+          <p>{post.name} </p>
+          <p>{post.description} </p>
+          <p>{post.id} </p>
+        </Fragment>
+      ))}
+      <div>{state.error}</div>
+    </>
+  );
+}
+
+export default Experiences;

@@ -1,15 +1,18 @@
 import React from "react";
 import "./ContentStyle.css";
 import Zoom from "react-reveal/Zoom";
+import Fade from "react-reveal/Fade";
 import Jello from "react-reveal/Jello";
 
 function Content() {
   return (
     <div className="content">
-      <h3>Introduction</h3>
+      <Fade top>
+        <h3>Introduction</h3>
+      </Fade>
       <Zoom>
         <p>
-          I am a Web Developer and a student currently pursuing a degree. 2013
+          I am a Web Developer and a student currently pursuing a degree. 2017
           was the year I started coding and became immersed in the field of
           coding. My primary motivation was to make my own video game, but as
           time passed, I became interested in web development. While I have some

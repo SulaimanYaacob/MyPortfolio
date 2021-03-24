@@ -1,4 +1,5 @@
 .headerLink {
+  z-index: 1;
   background-color: rgb(73, 70, 70);
   box-shadow: 1px 0 4px 4px black;
   padding-top: 0.5rem;
