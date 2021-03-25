@@ -1,4 +1,5 @@
 import axios from "axios";
+import "./HobbyStyle.css";
 import React, { useState, useEffect } from "react";
 
 function Hobby() {
@@ -19,8 +20,16 @@ function Hobby() {
 
   return (
     <div>
+      <h3 className="title">Hobbies</h3>
       {posts.map((exp) => {
-        return <div key={exp.id}>{exp.hobby}</div>;
+        return (
+          <>
+            <h4 className="sub-title">{exp.hobby}</h4>
+            <div key={exp.id} className="hobby">
+              <p>{exp.description}</p>
+            </div>
+          </>
+        );
       })}
     </div>
   );

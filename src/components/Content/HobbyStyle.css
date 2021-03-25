@@ -1,0 +1,20 @@
+.title {
+  text-align: center;
+  font-family: "Lora";
+  margin-top: 0;
+}
+
+.sub-title {
+  margin-left: 1rem;
+}
+
+.hobby {
+  display: flex;
+  justify-content: center;
+  margin-left: 1rem;
+}
+
+.hobby p {
+  margin: 0;
+  max-width: 1150px;
+}

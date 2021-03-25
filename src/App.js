@@ -12,7 +12,7 @@ function App() {
         <Portfolio />
         <Content />
       </div>
-      <Hobby />
+      {/* <Hobby /> */}
     </>
   );
 }
