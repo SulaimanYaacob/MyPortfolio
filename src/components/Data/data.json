@@ -3,7 +3,7 @@
         "id" : 1,
         "hobby":"Cycling",
         "description":"One of my favourite activities because it helps me to get some fresh air while also providing me with a breathtaking view of my village. It also helps in a variety of ways, such as relieving tension by gazing at greenery scenery and stimulating blood flow in my body.",
-        "image" : "'./Images/bicycle.png'"
+        "image" : "'/Images/bicycle.png'"
     },
 
     {
