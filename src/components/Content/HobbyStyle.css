@@ -1,20 +1,76 @@
 .title {
+  color: white;
+  background-color: royalblue;
+  box-shadow: 0 8px 6px -6px black;
+  font-size: 1.5rem;
   text-align: center;
-  font-family: "Lora";
-  margin-top: 0;
+  font-family: "Gentium Basic", sans-serif;
+  margin: 8rem 0 4rem 0;
+  padding: 2rem 0 2rem 0;
 }
 
 .sub-title {
-  margin-left: 1rem;
+  font-size: 1.2rem;
+  font-family: "Lora";
 }
 
-.hobby {
-  display: flex;
-  justify-content: center;
-  margin-left: 1rem;
+.left-hobby {
+  padding: 3rem 0 3rem 0;
+  width: 60%;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
-.hobby p {
+.left-hobby h4 {
   margin: 0;
-  max-width: 1150px;
+}
+
+.left-hobby p {
+  margin: 0;
+  padding-top: 1rem;
+  max-width: 1000px;
+  font-size: 1.1rem;
+  font-family: "Lato";
+  font-style: italic;
+  line-height: 1.7rem;
+  word-spacing: 1px;
+}
+
+.left-hobby img {
+  margin: 0 1rem 0 0;
+  float: left;
+  width: 147.2px;
+}
+
+/* Right Hobby Content*/
+
+.right-hobby {
+  align-items: right;
+  padding: 3rem 0 3rem 0;
+  width: 50%;
+  margin: auto;
+}
+
+.right-hobby h4 {
+  text-align: right;
+  margin: 0;
+}
+
+.right-hobby p {
+  font-size: 1.1rem;
+  font-family: "Lato";
+  font-style: italic;
+  line-height: 1.7rem;
+  margin: 0;
+  max-width: 1000px;
+  padding-top: 1rem;
+  text-align: right;
+  word-spacing: 1px;
+}
+
+.right-hobby img {
+  margin: 0 0 0 1rem;
+  float: right;
+  width: 147.2px;
 }

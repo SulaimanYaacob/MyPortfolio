@@ -2,7 +2,6 @@ import React from "react";
 import "./ContentStyle.css";
 import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
-import Jello from "react-reveal/Jello";
 
 function Content() {
   return (
@@ -20,9 +19,7 @@ function Content() {
           this time because I am still honing my skills to become one.
         </p>
       </Zoom>
-      <Jello>
-        <hr></hr>
-      </Jello>
+      <hr></hr>
     </div>
   );
 }
