@@ -23,7 +23,7 @@ function Hobby() {
     <div>
       <h3 className="title">Hobbies</h3>
       {posts.map((exp) => {
-        if (exp.id % 2 == 1) {
+        if (exp.id % 2 === 1) {
           return (
             <Fade left>
               <div key={exp.id} className="left-hobby">
