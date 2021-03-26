@@ -9,14 +9,15 @@
     {
         "id" : 2,
         "hobby":"Gaming",
-        "description":""
-        
+        "description":"Aside from that, playing video games has been a big support in my life because it has helped me conquer not only difficulties in the game but also real-life obstacles that I thought were insurmountable.",
+        "image" : "https://www.flaticon.com/svg/vstatic/svg/686/686589.svg?token=exp=1616751015~hmac=267e5d7769ea8d475b9d20e5fde92ba2"
     },
 
     {
         "id" : 3,
         "hobby" : "Coding",
-        "description":""
+        "description":"As a novice, I believe that coding should become a routine for me as a programmer because it will sharpen my coding skills and, without a doubt, help me perform better.",
+        "image" : "https://www.flaticon.com/svg/vstatic/svg/1336/1336494.svg?token=exp=1616751120~hmac=373764e9f20a7c473940ba77ad7e1620"
     }
 
 ]
