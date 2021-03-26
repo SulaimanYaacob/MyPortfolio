@@ -27,7 +27,7 @@ function Hobby() {
           return (
             <Fade left>
               <div key={exp.id} className="left-hobby">
-                <img src={exp.image}></img>
+                <img src={exp.image} alt={exp.hobby}></img>
                 <h4 className="sub-title">{exp.hobby} </h4>
                 <p>{exp.description}</p>
               </div>
@@ -37,7 +37,7 @@ function Hobby() {
           return (
             <Fade right>
               <div key={exp.id} className="right-hobby">
-                <img src={exp.image}></img>
+                <img src={exp.image} alt={exp.hobby}></img>
                 <h4 className="sub-title">{exp.hobby}</h4>
                 <p>{exp.description}</p>
               </div>
