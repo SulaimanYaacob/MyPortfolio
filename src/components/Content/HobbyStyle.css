@@ -40,7 +40,7 @@
 .left-hobby img {
   margin: 0 1rem 0 0;
   float: left;
-  width: 147.2px;
+  width: 140px;
 }
 
 /* Right Hobby Content*/
@@ -72,5 +72,5 @@
 .right-hobby img {
   margin: 0 0 0 1rem;
   float: right;
-  width: 147.2px;
+  width: 140px;
 }
