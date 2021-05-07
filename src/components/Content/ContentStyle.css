@@ -1,13 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,400&display=swap");
 
 .content {
-  padding-top: 5rem;
+  background-color: #fdfdfd;
+  padding: 4rem 0 8rem 0;
 }
 
 .content h3 {
-  margin: 1rem 0 1.5rem;
+  margin-bottom: 3rem;
   font-family: "Lora", sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 .content p {

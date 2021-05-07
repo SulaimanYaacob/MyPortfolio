@@ -4,7 +4,7 @@ import Fade from "react-reveal/Fade";
 import React, { useState, useEffect } from "react";
 
 function Hobby() {
-  const [posts, setPost] = useState([]);
+  const [getHobby, setGetHobby] = useState([]);
 
   useEffect(() => {
     axios
@@ -12,7 +12,7 @@ function Hobby() {
         "https://raw.githubusercontent.com/SulaimanYaacob/MyPortfolio/main/src/components/Data/data.json"
       )
       .then((res) => {
-        setPost(res.data);
+        setGetHobby(res.data);
       })
       .catch((err) => {
         console.log(err);
@@ -20,9 +20,9 @@ function Hobby() {
   }, []);
 
   return (
-    <div>
-      <h3 className="title">Hobbies</h3>
-      {posts.map((exp) => {
+    <div className="hobbies-section">
+      <h2 className="title">Hobbies</h2>
+      {getHobby.map((exp) => {
         if (exp.id % 2 === 1) {
           return (
             <Fade left>
@@ -45,6 +45,7 @@ function Hobby() {
           );
         }
       })}
+      <div className="extra-space"></div>
     </div>
   );
 }

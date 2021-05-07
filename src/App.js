@@ -2,18 +2,24 @@ import "./App.css";
 import Portfolio from "./components/main/Portfolio";
 import HeaderLink from "./components/Header/header";
 import Content from "./components/Content/Content";
-import Hobby from "./components/Content/Hobby";
+import Hobbies from "./components/Content/Hobby";
 
 function App() {
   return (
-    <>
+    <main id="Home">
       <div className="App">
         <HeaderLink />
-        <Portfolio />
-        <Content />
+
+        <section className="intro" id="intro">
+          <Portfolio />
+          <Content />
+        </section>
       </div>
-      <Hobby />
-    </>
+      <section className="hobbies" id="hobbies">
+        <Hobbies />
+      </section>
+      <section className="rest"></section>
+    </main>
   );
 }
 
