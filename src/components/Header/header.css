@@ -16,12 +16,11 @@
 
 .headerLink div {
   display: flex;
-  margin-left: 1rem;
 }
 
 .headerLink div a {
   color: black;
-  margin: 0 1rem 5px 0;
+
   padding: 0 5px;
   border-radius: 5px;
   display: flex;
@@ -36,10 +35,12 @@
 }
 
 .icon-links {
+  margin: 0 0.5rem 5px 0;
   font-size: 35px;
 }
 
 .nav-bar {
+  margin: 0 0rem 5px 0.5rem;
   font-size: 1.5rem;
   text-decoration: none;
   text-transform: uppercase;
