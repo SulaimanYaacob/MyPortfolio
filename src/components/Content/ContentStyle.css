@@ -1,33 +1,36 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,400&display=swap");
 
 .content {
-  background-color: #fdfdfd;
-  padding: 4rem 0 8rem 0;
+  background-color: #d6e4f0;
+  padding: 4rem 0 10rem 0;
 }
 
 .content h3 {
+  color: rgb(27, 27, 27);
   margin-bottom: 3rem;
   font-family: "Lora", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
 .content p {
   margin: 1rem auto 0;
-  color: rgb(68, 68, 68);
+  color: rgb(71, 63, 63);
   font-family: "Lato";
   font-style: italic;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   width: 80%;
   word-spacing: 1px;
   line-height: 1.3rem;
 }
 
-.content hr {
+/* .content hr {
+  color: white;
+  border-style: dotted;
   border-left: none;
   border-bottom: none;
   border-right: none;
-  border-width: 0.1rem;
-  max-width: 65%;
+  border-width: 0.4rem;
+  max-width: 10%;
   min-width: 5%;
   margin: 5rem auto 0 auto;
-}
+} */
