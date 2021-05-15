@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Gentium+Basic&display=swap");
 
 .primary {
-  background-color: royalblue;
+  background-color: cornflowerblue;
   margin: 0;
   position: relative;
   padding: 5rem 0 5rem;
@@ -20,7 +20,7 @@
 }
 
 .primary hr {
-  width: 25%;
+  width: 400px;
   border-width: 3px;
   border-style: solid;
   border-right: none;

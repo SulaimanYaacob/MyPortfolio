@@ -3,14 +3,14 @@
 }
 
 .title {
-  background-color: royalblue;
-  color: rgb(233, 233, 233);
+  background-color: cornflowerblue;
+  color: white;
   font-size: 2.3rem;
   font-family: "Gentium Basic", sans-serif;
   letter-spacing: 0.3rem;
   text-align: center;
   margin: 0 0 2rem 0;
-  padding: 1.5rem 0 1.5rem 0;
+  padding: 1.2rem 0 1.2rem 0;
 }
 
 .sub-title {

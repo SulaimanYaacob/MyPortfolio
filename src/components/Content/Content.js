@@ -19,6 +19,7 @@ function Content() {
           this time because I am still honing my skills to become one.
         </p>
       </Zoom>
+      <hr></hr>
     </div>
   );
 }

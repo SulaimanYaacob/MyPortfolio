@@ -9,7 +9,6 @@ function App() {
     <main id="Home">
       <div className="App">
         <HeaderLink />
-
         <section className="intro" id="intro">
           <Portfolio />
           <Content />
@@ -18,7 +17,13 @@ function App() {
       <section className="hobbies" id="hobbies">
         <Hobbies />
       </section>
-      <section className="rest"></section>
+      <div className="rest-container">
+        <section className="rest-section">
+          <p className="rest">Note that this is just a demo</p>
+        </section>
+        <hr></hr>
+        <div className="copyright">&#169; Sulaiman Yaacob</div>
+      </div>
     </main>
   );
 }
