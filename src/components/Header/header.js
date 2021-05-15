@@ -1,7 +1,7 @@
 import React from "react";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import "./header.css";
-import { links } from "./headerData";
+import { links } from "../Data/headerData";
 
 function header() {
   const handleClick = (e) => {

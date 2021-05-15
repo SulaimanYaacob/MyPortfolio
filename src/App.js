@@ -1,8 +1,9 @@
 import "./App.css";
-import Portfolio from "./components/main/Portfolio";
+import Portfolio from "./components/Main/Portfolio";
 import HeaderLink from "./components/Header/header";
 import Content from "./components/Content/Content";
 import Hobbies from "./components/Content/Hobby";
+import Footer from "./components/Footer/footer";
 
 function App() {
   return (
@@ -17,13 +18,7 @@ function App() {
       <section className="hobbies" id="hobbies">
         <Hobbies />
       </section>
-      <div className="rest-container">
-        <section className="rest-section">
-          <p className="rest">Note that this is just a demo</p>
-        </section>
-        <hr></hr>
-        <div className="copyright">&#169; Sulaiman Yaacob</div>
-      </div>
+      <Footer />
     </main>
   );
 }

@@ -1,0 +1,30 @@
+.rest-container {
+  background-color: cornflowerblue;
+  color: white;
+  font-family: "Gentium Basic", serif;
+}
+
+.rest-section {
+  font-size: 1.4rem;
+  padding: 3rem;
+}
+
+.rest {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rest-container hr {
+  margin: none;
+  border-style: dotted;
+  border-top: none;
+  border-width: 0.3rem;
+  width: 15px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+}

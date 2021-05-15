@@ -25,8 +25,8 @@ function Hobby() {
       {getHobby.map((exp) => {
         if (exp.id % 2 === 1) {
           return (
-            <Fade left>
-              <div key={exp.id} className="left-hobby">
+            <Fade left key={exp.id}>
+              <div className="left-hobby">
                 <img src={exp.image} alt={exp.hobby}></img>
                 <h4 className="sub-title">{exp.hobby} </h4>
                 <p>{exp.description}</p>
@@ -35,8 +35,8 @@ function Hobby() {
           );
         } else {
           return (
-            <Fade right>
-              <div key={exp.id} className="right-hobby">
+            <Fade right key={exp.id}>
+              <div className="right-hobby">
                 <img src={exp.image} alt={exp.hobby}></img>
                 <h4 className="sub-title">{exp.hobby}</h4>
                 <p>{exp.description}</p>
