@@ -1,5 +1,5 @@
 import "./App.css";
-import Portfolio from "./components/Main/Portfolio";
+import Portfolio from "./components/main/Portfolio";
 import HeaderLink from "./components/Header/header";
 import Content from "./components/Content/Content";
 import Hobbies from "./components/Content/Hobby";
