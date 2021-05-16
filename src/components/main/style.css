@@ -16,11 +16,11 @@
   font-family: "Gentium Basic", serif;
   margin: 0 0 5px;
   color: white;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 .primary hr {
-  width: 400px;
+  width: 375px;
   border-width: 3px;
   border-style: solid;
   border-right: none;
